@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Food agent: runtime data (DATA_DIR) must never be committed
+data/
+food-data/
+photos/
+inbox/
+records/
+*.xlsx
